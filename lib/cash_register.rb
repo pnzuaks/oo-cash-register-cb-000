@@ -18,6 +18,7 @@ class CashRegister
   def apply_discount()
     percent_off = self.discount.to_f / 100.0 
     percent_off * @total
+    @total - 
   end
   
   def items()
