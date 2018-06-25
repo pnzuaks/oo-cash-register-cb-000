@@ -1,1 +1,4 @@
-
+class Cash Register
+  
+  
+end
