@@ -1,4 +1,4 @@
-class Cash Register
+class Cash_Register
   
   def initialize(total = 0, discount)
     @total = total
