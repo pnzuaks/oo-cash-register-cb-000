@@ -9,7 +9,7 @@ class Cash Register
   end
   
   def add_item(title, price, quantity)
-    result = @total + (price*quantity)
+    result = self.total + (price*quantity)
   end
   
 end
