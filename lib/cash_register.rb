@@ -9,6 +9,7 @@ class Cash Register
   end
   
   def add_item(title, price)
+    
   end
   
 end
