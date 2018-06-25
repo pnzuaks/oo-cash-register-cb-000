@@ -13,7 +13,7 @@ class CashRegister
   end
   
   def add_item(title, price, quantity = 1)
-     @@items.push(title)
+     @items.push(title)
      @total += (price.to_f * quantity) 
   end
 
@@ -28,7 +28,7 @@ class CashRegister
   end
   
   def items()
-    @@items
+    @items
   end
   
   def void_last_transaction()
